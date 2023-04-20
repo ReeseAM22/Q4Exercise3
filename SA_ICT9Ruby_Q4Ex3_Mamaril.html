@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Arithmetic Operators</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+			<style type="text/css">
+
+				body{
+					background-image: url(EX3.jpg);
+				}
+				
+				h2, h1, h5, li, p{
+					font-family: 'DynaPuff', cursive;
+					text-align: center;
+
+				}
+
+				li{
+					text-align: center;
+				}
+
+				h4{
+					font-family: 'DynaPuff', cursive;
+
+				}
+
+		
+
+
+
+			</style>
+	</head>
+	<div class="container" style="font-size: 2em;">
+	<body>
+		<h4>Name: Reese Anika B. Mamaril</h4>
+		<h4>Section: 9-Ruby</h4>
+		<h1>Answer Homework#1</h1>
+		<h2><span style="background-color: ghostwhite;">JavaScript Arithmetic Operators!</span></h2>
+		<h5>(No drawings or doodles!)</h5>
+		<br>
+		<p><mark>r = 10, m = 5;</mark></p>
+
+
+			<li>r + m = <strong id="p1"></strong></li>
+			<li>m - r = <strong id="p2"></strong></li>
+			<li>r * m = <strong id="p3"></strong></li>
+			<li>m / r = <strong id="p4"></strong></li>
+			<li>r % 2 = <strong id="p5"></strong></li>
+			
+	
+		<script>
+			let r=10, m=5;
+
+			let sum = r + m;
+			let diff = m - r;
+			let pro = r * m; 
+			let quot = m / r; 
+			let mod = r % 2 ; 
+
+			alert("The sum of variable r and variable m is: " + sum + "\n" + "The difference of variable r and variable m is: " + diff + "\n" + "The product of variable r and variable m is: " + pro + "\n" + "The quotient of variable r and variable m is: " + quot + "\n" + "The modulus of variable r and m is: " + mod + "\n")
+
+			//variable declaration;assignment of values
+			document.getElementById("p1").innerHTML = r + m;
+			document.getElementById("p2").innerHTML = m - r;
+			document.getElementById("p3").innerHTML = r * m;
+			document.getElementById("p4").innerHTML = m / r;
+			document.getElementById("p5").innerHTML = r % 2;
+
+			
+
+
+
+		</script>
+		
+
+<body>
+</div>
+</body>
+</html>
